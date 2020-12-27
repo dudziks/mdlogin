@@ -22,7 +22,7 @@ abstract class  BaseLoginActivity : AppCompatActivity() {
      * Override this if you want to set your own theme or flags.
      */
 
-    @SuppressWarnings("DEPRECATION")
+    @Suppress("DEPRECATION")
     override fun onCreate(savedInstanceState: Bundle?) {
         requestWindowFeature(Window.FEATURE_NO_TITLE)
         super.onCreate(savedInstanceState)
